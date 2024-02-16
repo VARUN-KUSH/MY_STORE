@@ -5,7 +5,9 @@ const Button = ({children,
                 type='button',
                 ...props}) => {
   return (
-    <div className='bg-indigo-500'>{children}</div>
+    <div className='bg-indigo-500'>
+      <button type={type}>{children}</button>
+      </div>
   )
 }
 

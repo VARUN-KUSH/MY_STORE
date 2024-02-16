@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import Signup from './pages/Signup.jsx'
-import Login from './pages/Login.jsx'
+import Signup from './pages/users/Signup.jsx'
+import Login from './pages/auth/Login.jsx'
 import {
   createBrowserRouter,
   
